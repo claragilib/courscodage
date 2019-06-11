@@ -23,7 +23,7 @@ h1{
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  color: #3b4563;
+  color: white;
   font-weight: lighter;
   font-size: 1.5em;
 }
@@ -39,12 +39,6 @@ a {
 a:hover {
   text-decoration: none;
   color: rgb(225, 0, 152);
-}
-
-#logo{
-  color: rgb(225, 0, 152);
-  font-size: 35px;
-  font-family: 'Pacifico', cursive;
 }
 
 /* Mis en forme de la baseline */
@@ -70,16 +64,37 @@ a:hover {
 }
 
 .feature {
-  border: 10px solid #000; 
+  border: 1px #000; 
   margin: 15px;
   padding: 15px 0;
   text-align: center;
   width: 400px;
-  background-color: #41A3C0;
+  background-color: rgb(225, 0, 152);
 }
 
 #apropos{
   margin: 0 auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer {border: 1px solid #F2F2F2;background-color: #000}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#logo{
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+}
