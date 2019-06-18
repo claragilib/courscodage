@@ -43,7 +43,7 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-image: url("para.jpg");
   text-align: center;
   background-size: cover;
   padding: 150px;
